@@ -102,10 +102,21 @@ html {
 .introduce-text .introduce-heading{
     padding-bottom: 15px;
 }
-
+.introduce-section{
+    display: flex;
+    flex-direction: column;
+        
+}
+.introduce-item{
+    display: flex;
+    justify-content: center;
+    margin: 25px 25px 25px 25px;
+}
 .introduce-items{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    padding: 25px;
     
 }
 .introduce-items-image{
