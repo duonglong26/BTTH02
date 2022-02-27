@@ -16,6 +16,25 @@ html {
     align-items: center;
     z-index: 3;
 }
+.slideshow-container {
+    position: relative;
+}
+.prev {
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 40px);
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+.next {
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 40px);
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
 .nav-img{
     text-align: center;
     font-size: 15px;
