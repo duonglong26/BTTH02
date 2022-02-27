@@ -50,6 +50,7 @@ html {
 
 .nav-list, .subnav{
     list-style: none;
+    z-index: 3;
 }
 
 .nav-list > li{
