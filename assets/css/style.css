@@ -746,6 +746,196 @@ html {
     text-decoration: none;
 }
 
+/* Page gioi thieu */
+#content-wrap {
+    display: none;
+    overflow: hidden;
+    width: 1200px;
+    height: auto;
+    padding: 0 30px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.content-area {
+    display: block;
+    float: left;
+    padding: 0 30px 0 0 ;
+    width: 798px;
+    height: auto;
+}
+.content-date {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-date a {
+    text-decoration: none;
+    color: black;
+}
+.content-date hr {
+    margin: 20px 0;
+}
+.like-share span {
+    font-size: 14px;
+    background-color: blue;
+    margin: 0 15px;
+    border-radius: 3px;
+    color: #fff;
+}
+.like-share span:hover {
+    cursor: pointer;
+}
+.content-area .about h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 15px 0;
+}
+.content-area .about p {
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+.content-area .achievement {
+    padding: 10px;
+    font-size: 16px;
+}
+.content-area h4 {
+    font-size: 17px;
+    color: #0B249E;
+    margin: 30px 0;
+}
+.content-area p {
+    text-align: justify;
+}
+.content-area ul{
+    margin: 0 0 0 20px;
+    line-height: 1.8;
+}
+.content-area p {
+    line-height: 1.6;
+    margin: 15px 0;
+}
+.content-area .edu-quality i {
+    font-weight: 700;
+    margin: 0 10px 0 0;
+}
+.content-area .edu-quality ul li {
+    font-size: 15px;
+    padding: 15px 20px;
+    width: 644px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+    font-weight: 700;
+}
+.content-area .detail {
+    text-decoration: none;
+    color: #0B249E;
+    font-weight: 600;
+}
+.content-area .fanpage {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+/* slide bar */
+.right-slidebar {
+    padding: 20px 0 0 80px;
+    width: 342px;
+    height: auto;
+    display: block;
+    float: left;
+}
+.right-slidebar .fanpage{
+    width: 262px;
+    height: 115px;
+    margin: 0 0 40px 0;
+    position: relative;
+}
+.right-slidebar .fanpage > img {
+    width: 262px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.right-slidebar .fanpage .fanpage-info img {
+    width: 54px;
+}
+.right-slidebar .fanpage .fanpage-info {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+}
+.right-slidebar .fanpage .fanpage-info p {
+    color: #fff;
+    margin-left: 5px;
+}
+.adse,
+.fullstack,
+.acna,
+.java,
+.dot-net,
+.scholarship {
+    width: 262px;
+    height: 140px;
+    margin: 0 0 40px 0;
+} 
+.right-slidebar h4 {
+    font-size: 15px;
+    padding: 0 0 0 15px;
+    margin: 0 0 20px;
+}
+.right-slidebar img {
+    width: 262px;
+}
+
+.registration input[type='text'] {
+    width: 262px;
+    height: 39.5px;
+    font-size: 15px;
+    padding: 0 0 0 15px;
+    display: inline-block;
+    /* border: none; */
+    background-color: rgba(231, 212, 212, 0.9);
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.registration p {
+    width: 262px;
+    height: 39.5px;
+    border: 1px solid rgb(168, 167, 167);
+    padding: 0 0 0 15px;
+    margin: 5px 0;
+    line-height: 39.5px;
+}
+.registration i {
+    margin-left: 160px;
+}
+.registration button {
+    font-size: 16px;
+    width: 262px;
+    height: 44px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 40px 0 30px 0;
+    border: none;
+    background-color: orange;
+    border-radius: 4px;
+}
+.registration button:hover {
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+.right-slidebar .news hr {
+    margin: 10px 0;
+}
+
+
 /* Partners */
 #partners{
     padding: 24px 0 60px 0;
@@ -792,4 +982,116 @@ html {
     font-size: 30px;
     font-weight: 700;
     line-height: 42px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 490px;
+    background-color: #2F319E;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .info {
+    float: left;
+    width: 500px;
+    height: 360px;
+    padding: 0 40px;
+}
+.footer h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 0 0 20px;
+}
+.footer .course li{
+    font-size: 16px;
+    padding: 10px 0 10px 15px;
+    list-style-type: none;
+}
+.footer .course li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer .fanpage{
+    width: 262px;
+    height: 115px;
+    margin: 30px 0 40px 20px;
+    position: relative;
+}
+.footer .fanpage > img {
+    width: 262px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.footer .fanpage .fanpage-info img {
+    width: 54px;
+}
+.footer .fanpage .fanpage-info {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+}
+.footer .fanpage .fanpage-info p {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.footer .contact li {
+    font-size: 16px;
+    padding: 10px 0 10px 0px;
+    list-style-type: none;
+}
+.footer .contact li a {
+    text-decoration: none;
+}
+.footer .contact li span {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.8;
+}
+
+.footer .regist input[type='text'] {
+    width: 340px;
+    height: 39.5px;
+    font-size: 15px;
+    padding: 0 0 0 15px;
+    display: inline-block;
+    /* border: none; */
+    background-color: rgb(229, 244, 245);
+    border-radius: 3px;
+    margin: 10px 0;
+}
+.footer .regist p {
+    width: 340px;
+    height: 39.5px;
+    border: 1px solid rgb(168, 167, 167);
+    background-color: rgb(229, 244, 245);
+    padding: 0 0 0 15px;
+    margin: 5px 0;
+    line-height: 39.5px;
+}
+.footer .regist i {
+    margin-left: 238px;
+}
+.footer .regist button {
+    font-size: 16px;
+    width: 340px;
+    height: 44px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 40px 0 30px 0;
+    border: none;
+    background-color: orange;
+    border-radius: 4px;
+}
+.footer .regist button:hover {
+    background-color: rgb(152, 152, 230);
+    cursor: pointer;
+    color: #fff;
 }
